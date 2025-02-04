@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #343435;
+    background-color: #10003d;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
@@ -31,4 +31,11 @@ button {
 
 .actions {
     margin-top: 18px;
+}
+
+.Sell_Price {
+    width:200px;
+    height:20px;
+    display: block;
+    background-color: aquamarine;
 }
