@@ -20,10 +20,20 @@
                     <button id="sellPotato">Sell Potato</button>
                 </div>
 
-                <imput type="range" min="1" max="100"  class="Sell_Price">
+                <div class="selling">
+                    <input id="potatoSellPriceInput" type="range" min="0.1" max="3" step="0.1" value="5">
+
+                    <div>
+                        Sell Price: £<span id="potatoSellPrice">3.0</span>
+                    </div>
+
+                    <div>
+                        Sell Rate: <span id="potatoSellRate">0</span> / sec
+                    </div>
+                </div>
 
                 
-            </div>
+            </div><!-- .primary -->
 
             <div class="farmers">
                 <h2>Farmers</h2>
@@ -33,7 +43,24 @@
                 <div class="actions">
                     <button id="buyFarmer">Buy Farmer - £10</button>
                 </div>
-            </div>            
+            </div>  <!-- .farmers -->
+            
+            <div class="mines">
+                <h2>mines</h2>
+                <div id="mineCount">0</div>
+                <div id="mineProduction">0</div>
+    
+                <div class="actions">
+                    <button id="buyMine">Buy mine - £100</button>
+        
+
+                </div>
+
+            </div><!-- .mines -->   
+            <button id="cutePotato"><img width="1000" height="1000" src="assets/Potato.png" /></button>
+        </div><!-- .game -->
+
+                         
         </div>
     </body>
 </html>

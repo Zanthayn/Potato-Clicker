@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #10003d;
+    background-color: #061876;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
 }
@@ -38,4 +38,11 @@ button {
     height:20px;
     display: block;
     background-color: aquamarine;
+
+}
+#cutePotato{
+    background:transparent;
+   position: fixed;
+   top: calc(50% - 411px);
+   left:calc(50% - 411px);
 }
